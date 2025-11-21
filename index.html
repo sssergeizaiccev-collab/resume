@@ -6,74 +6,112 @@
     <title>Сергей резюме</title>
     <meta name="discription" content="Это мое резюме">
     <meta name="keywords" content="Резуме, мои навыки ">
-</head>
+
+    <link rel="stylesheet" href="FIleCSS.css">
+</head> 
+
+<!-- <style>
+
+    @media (max-width: 500px) {
+        .conteiner {
+            font-size: 0.8rem;
+            padding: 10px;
+            text-align: center;
+        }
+    }
+
+</style> -->
+
+
 <body>
-   <img src="photo/photo_2025-11-19_17-32-21.jpg" width="250" alt="Сергей Зайцев">
-   <h1>Sergey</h1> 
-   <p>Я работаю <strong>машинистом</strong> и учусь в онлайн школе<strong> Resault-University</strong> </p>
-   <p>Я хочу <em>сменить свой род деятельности и начать работу програмистом</em></p>
-   <h4>Список социальных сетей:</h4>
-   <a href="https://www.instagram.com/zaitsev__s/" target="_blank">Instagram</a>
-   
-   <br>
-    <h1>Мои Хобби:</h1>
-   <ol>
-    <li><strong>Спорт</strong></li>
-    <li><strong>Прогулки</strong></li>
-   </ol>
+<div class="conteiner">
+        <div class="info">
+            <div class="info-img">
+                <img src="photo/photo_2025-11-19_17-32-21.jpg"  alt="Сергей Зайцев">
+            </div>
+            <div class="info-text">
+                <h1>Зайцев Сергей</h1> 
+                    <p>Я работаю машинистом электропоезда и учусь в онлайн школе Resault-University.</p>
+                    <p>Я хочу сменить свой род деятельности и начать работу програмистом.</p>
+                    <h3>Список социальных сетей:</h3>
+                        <a href="https://www.instagram.com/zaitsev__s/" target="_blank">Instagram</a>
+            </div>
+        </div>
+        
+        
+        <br>
+        <div class="card bg-aqua" >
+                <h1>Мои Хобби</h1>
+                <ol class="list">
+                    <li>Спорт</li>
+                    <li>Прогулки</li>
+                </ol>
+        </div>
+        <div class="card bg-yelow">
+            <h1>Опыт работы</h1>
 
-   <h1>Опыт работы</h1>
+                <table class="teb">
+                    <thead>
+                        <tr class="name">
+                            <th>Название</th>
+                            <th>Должность</th>
+                            <th>Год</th>
+                        </tr>
+                    </thead>
+                <tbody>
+                    <tr>
+                        <td>ОАО "РЖД"</td>
+                        <td>Помощник машиниста</td>
+                        <td>2017-2022</td>
+                    </tr>
+                    <tr>
+                        <td>ОАО "РЖД"</td>
+                        <td>Машинист</td>
+                        <td>2022-2023</td>
+                    </tr>
+                    <tr>
+                        <td>АО "ЦППК"</td>
+                        <td>Машинист</td>
+                        <td>2023-по н.в.</td>
+                    </tr>
+                </tbody>
+                </table>
+         </div>
 
-   <table>
-    <thead>
-        <tr>
-            <th>Название</th>
-            <th>Должность</th>
-            <th>Год</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>ОАО "РЖД"</td>
-            <td>Помощник машиниста</td>
-            <td>2017-2022</td>
-        </tr>
-        <tr>
-            <td>ОАО "РЖД"</td>
-            <td>Машинист</td>
-            <td>2022-2023</td>
-        </tr>
-        <tr>
-            <td>АО "ЦППК"</td>
-            <td>Машинист</td>
-            <td>2023-по н.в.</td>
-        </tr>
-    </tbody>
-   
-   </table>
+        <div class="card bg-green">
+        <h1>Мои курсы</h1>
+            <ul class="link-list">
+                <li><a href="https://result-ai.tech/products" target="_blank">Профессия Джуниор Fronted-разработчик</a></li>
+                <li><a href="https://result-ai.tech/products" target="_blank">Профессия Джуниор Midle-разработчик</a></li>
+            </ul>
+        </div>
 
-   <h1>Связаться со мной</h1>
+        
+        <div class="box">
+            <h1>Связаться со мной</h1>
+            <div class="box-row">
+                <div class="box-group">
+                    <label for="name" >Ваше имя:</label>
+                    <input type="name" id="name" placeholder="Введите ваше имя" >
+                </div>
 
-   <div>
-    <label for="name">Ваше имя:</label>
-    <input type="name" id="name" placeholder="Введите ваше имя">
-   </div>
+                <div class="box-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+            </div>
 
-   <div>
-    <label for="email">Ваш email:</label>
-    <input type="email" id="email" placeholder="Введите email">
-   </div>
+            <div class="box-group">
+                <label for="message">Ваше сообщение:</label>
+                <br>
+                <textarea name="message" id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+            </div>
 
-   <div>
-    <label for="message">Ваше сообщение:</label>
-    <br>
-    <textarea name="message" id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
-   </div>
-
-   <button>Отправить</button>
+            <button class="btn">Отправить</button>
+        </div>
+</div>
 
 
 
 </body>
-
 </html>

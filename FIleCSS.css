@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+.info img {
+    box-shadow: 4px 4px 14px rgba(69, 3, 252, 0.25);
+    border-radius: 30px;
+    width: 250px;
+}
+
+.info-text p {
+    font-style: italic;
+    margin: 5px;
+    
+    
+  
+}
+
+
+.info {
+    display: flex;
+}
+
+.info-text {
+    margin-left: 20px;
+}
+
+
+@media (max-width: 500px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.card {
+    
+     border-radius: 20px;
+    /* margin-bottom: 10px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-right: 1000px;
+    padding: 10px; */
+    padding: 15px 20px ;
+    margin-bottom: 10px;
+     
+    
+    
+}
+
+.info-text h3 {
+    margin-bottom: 10px;
+
+}
+
+.card h1 {
+    margin-bottom: 8px;
+}
+
+.bg-aqua {
+    background: #a8eeee;
+    
+
+}
+
+.bg-yelow {
+   background: #edf1af; 
+}
+
+.bg-green {
+    background: rgb(183, 235, 183)
+}
+
+/* table, th, td {
+  border: 1px solid black;
+} */
+
+td {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.conteiner {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+
+}
+
+
+
+
+.btn {
+    background: black;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 15px;
+    font-family: inherit;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.btn:hover {
+    color: rgb(142, 247, 238);
+    opacity: .8;
+}
+
+a {
+    color: rgb(17, 0, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    
+    text-decoration: underline;
+}
+
+a:active{
+    color: red ;
+}
+
+/* a:visited {
+    color: grey;
+} */
+
+.list {
+    padding: 0px 15px;
+    
+}
+
+.list li {
+    margin-bottom: 8px;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0px;
+}
+
+
+.link-list li {
+    margin-bottom: 5px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+}
+
+.link-list a {
+    color: black;
+}
+
+.link-list a:hover {
+    color: blue;
+}
+
+.teb {
+    width: 100%;
+}
+
+.teb td {
+    padding-bottom: 5px;
+    padding-left: 0px;
+}
+
+.la {
+    display: inline;
+}
+
+.box h1 {
+    text-align: center;
+}
+
+.box-group input,
+.box-group textarea {
+    width: 100%;
+    
+}
+
+.box-row {
+    margin-bottom: 8px;
+    /* display: flex; */
+}
+
+.box-row .box-group {
+    display: inline-block;
+    width: 48%;
+    margin-right: 25px;
+}
+
+.box-row .box-group:last-child {
+    margin-right: 0px;
+}
+
+.box-group {
+    font-weight: bold;
+}
+
+@media (max-width: 750px) {
+   .box-row .box-group {
+    width: 100%;
+    margin-bottom: 10px;
+   } 
+}
